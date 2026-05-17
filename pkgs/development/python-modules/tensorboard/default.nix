@@ -11,7 +11,7 @@
   packaging,
   pillow,
   protobuf,
-  setuptools,
+  setuptools_80,
   tensorboard-data-server,
   werkzeug,
   standard-imghdr,
@@ -47,7 +47,7 @@ buildPythonPackage rec {
     packaging
     pillow
     protobuf
-    setuptools
+    setuptools_80
     tensorboard-data-server
     werkzeug
 
