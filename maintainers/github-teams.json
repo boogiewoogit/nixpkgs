@@ -561,6 +561,7 @@
     "members": {
       "Ericson2314": 1055245,
       "emilazy": 18535642,
+      "pwaller": 438648,
       "rrbutani": 7833358,
       "sternenseemann": 3154475
     },
@@ -896,8 +897,7 @@
     "id": 7304571,
     "maintainers": {
       "Mic92": 96200,
-      "winterqt": 78392041,
-      "zowoq": 59103226
+      "winterqt": 78392041
     },
     "members": {},
     "name": "rust"
