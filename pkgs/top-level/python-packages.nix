@@ -4085,10 +4085,10 @@ self: super: with self; {
   distutils =
     if pythonOlder "3.12" then null else callPackage ../development/python-modules/distutils { };
 
+  distutils-extra = callPackage ../development/python-modules/distutils-extra { };
+
   distutils_80 =
     if pythonOlder "3.12" then null else callPackage ../development/python-modules/distutils/80.nix { };
-
-  distutils-extra = callPackage ../development/python-modules/distutils-extra { };
 
   dj-database-url = callPackage ../development/python-modules/dj-database-url { };
 
